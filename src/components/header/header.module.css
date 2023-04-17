@@ -1,0 +1,22 @@
+.header {
+  background-color: #fff;
+  color: black;
+  font-weight: 700;
+  font-size: 22px;
+  padding: 10px;
+  text-align: center;
+  display: grid;
+  align-items: center;
+}
+
+.header img {
+  vertical-align: middle;
+}
+
+.header button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  justify-self: right;
+  position: absolute;
+}

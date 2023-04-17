@@ -1,0 +1,55 @@
+.menu {
+  background-color: #1f2021;
+  color: #fff;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  transition: 0.5s;
+  width: 0;
+}
+
+.menu .title {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 10px 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu .divider {
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+}
+
+.menu .items {
+  list-style-type: none;
+  font-size: 20px;
+  line-height: 2;
+  padding-inline-start: 20px;
+}
+
+.menu .footer {
+  list-style-type: none;
+  font-size: 12px;
+  line-height: 2;
+  position: absolute;
+  bottom: 0;
+  padding: 8px 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu img {
+  vertical-align: middle;
+}
+
+.menu button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
